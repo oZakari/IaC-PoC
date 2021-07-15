@@ -1,7 +1,7 @@
 on: 
-  pull_request:
+  push:
     branches:
-      - prod
+    - prod
 name: Prod-IaC-PoC-Workflow
 jobs:
   build-and-deploy:
