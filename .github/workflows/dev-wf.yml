@@ -6,8 +6,9 @@ name: Dev-IaC-PoC-Workflow
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: Dev
     steps:
-
       # Checkout code
     - name: Checkout
       uses: actions/checkout@v2
