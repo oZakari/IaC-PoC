@@ -2,7 +2,7 @@ on:
   push:
     branches:
     - prod
-name: Prod-IaC-PoC-Workflow
+name: Prod-IaC-Workflow
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
